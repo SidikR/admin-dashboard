@@ -23,6 +23,16 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/inventori/page.tsx",
+    "app/registration/pageSS.tsx",
+    "config/datas.ts",
+    "app/registration/layout.tsx",
+    "app/registration/page.tsx"
+  ],
   "exclude": ["node_modules"]
 }
